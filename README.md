@@ -7,17 +7,18 @@ A collection of practical scripts based on RhythmBase.
 This repository collects and shares commonly used or potentially useful RhythmBase scripts, making it easy to run them directly, learn from them, or build on them.
 
 ## Included Scripts
-- #### **autoplay.cs** by *obugs*
-  > [!WARNING]
-  > Due to the potential for misuse, this feature is not shown for now.
-  >
+- **autoplay.cs** by *obugs*
   Retrieves beat timings from a level file and simulates keyboard input to automatically press keys on the beat while playing the level.
+  > Coverage is not guaranteed; users assume all consequences of use. Use at your own risk.
 
 - #### **counter.cs** by *obugs*
   Counts the number of events, gameplay information, etc. in a level.
 
 - #### **remove_vfx.cs** by *obugs*
   Removes all events that do not affect the gameplay experience. Can be used to reduce the performance requirements on the device when playing a level.
+
+- #### **check_font_glyphs.cs** by *obugs*
+  Checks whether a font file covers a specified character set. Used to filter fonts and avoid missing glyphs.
 
 ## Requirements
 
